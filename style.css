@@ -1,0 +1,17 @@
+/* Le conteneur du texte centré */
+.centered-text {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-size: 100px;
+}
+
+body {
+    background-image: url('images/welcomeBackground.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}

@@ -1,0 +1,25 @@
+Étape 1 : Vous êtes un chevalier errant dans un royaume médiéval. Vous arrivez à un croisement dans la forêt. Que faites-vous ?
+
+Choix 1 : Suivre le chemin de droite (Allez à l'Étape 2)
+Choix 2 : Emprunter le chemin de gauche (Allez à l'Étape 3)
+
+Étape 2 : Vous suivez le chemin de droite et trouvez une cabane. Que faites-vous ?
+
+Choix 1 : Entrer dans la cabane (Allez à l'Étape 4)
+Choix 2 : Continuer à marcher dans la forêt (Allez à l'Étape 5)
+
+Étape 3 : Vous empruntez le chemin de gauche et trouvez une rivière tumultueuse. Que faites-vous ?
+
+Choix 1 : Essayer de la traverser à la nage (Allez à l'Étape 6)
+Choix 2 : Revenir sur vos pas et prendre l'autre chemin (Revenez à l'Étape 2)
+
+Étape 4 : À l'intérieur de la cabane, vous trouvez un trésor étincelant. Félicitations, vous avez réussi votre quête !
+
+Étape 5 : Vous continuez à marcher dans la forêt et découvrez une ancienne tombe. Que faites-vous ?
+
+Choix 1 : Ouvrir la tombe (Allez à l'Étape 7)
+Choix 2 : Rebrousser chemin (Revenez à l'Étape 2)
+
+Étape 6 : Vous tentez de traverser la rivière, mais les courants sont trop forts. Vous êtes emporté par le courant, et votre aventure se termine ici.
+
+Étape 7 : En ouvrant la tombe, vous libérez un esprit maléfique qui vous maudit. Votre aventure se termine ici.

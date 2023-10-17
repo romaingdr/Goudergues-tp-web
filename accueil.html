@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Castle quest</title>
+    <script src="script.js"></script>
+</head>
+<body style="background-image: url('images/welcomeBackground.jpg');">
+<div class="gameText">
+    <h1>Très bien,
+        <span id="welcomeName"></span>
+    </h1>
+    <p>Où souhaitez-vous aller ?</p>
+</div>
+<div class="button-container">
+    <a href="sentier-gauche.html" class="btn-grad" id="gauche"><= Aller à gauche</a>
+    <img src="images/chevalier.png" alt="image du chevalier">
+    <a href="sentier-droite.html" class="btn-grad" id="droite">Aller à droite =></a>
+</div>
+
+<script>
+    var params = new URLSearchParams(window.location.search);
+    var nom = params.get("nom");
+    var welcomeName = document.getElementById("welcomeName");
+    if (nom) {
+        welcomeName.textContent = " " + nom + "  🗡";
+    }
+</script>
+</body>
+</html>

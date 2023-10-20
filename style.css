@@ -71,14 +71,7 @@
     justify-content: center;
 }
 
-.button-container img {
-    width: 800px;
-    height: auto;
-    margin-top: 20%;
-}
-
 .button-container a{
-    flex: 1;
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 30%;
@@ -92,8 +85,6 @@
 }
 
 .button-choices a{
-    margin-left: 30%;
-    margin-right: 30%;
     margin-top: 30%;
     text-decoration: none;
 }
@@ -102,6 +93,57 @@ body {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+}
+
+h2 {
+    color: white;
+    font-family: Bradley Hand, cursive;
+    font-size: 50px;
+}
+
+.image-centre {
+    position: absolute;
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    height: 750px;
+}
+
+.image-centre img {
+    margin-left: 160%;
+    width: 100%; /* Redimensionner la div à la largeur de l'image */
+    height: 600px;
+}
+
+.code-final {
+    position: absolute;
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    height: 750px;
+}
+
+.code-final img {
+    margin-left: 160%;
+    width: 100%; /* Redimensionner la div à la largeur de l'image */
+    height: 600px;
+}
+
+.input-container {
+    display: flex; /* Utiliser un modèle de boîte flexible */
+    flex-direction: column; /* Aligner les éléments verticalement (un en dessous de l'autre) */
+    align-items: center; /* Centrer les éléments horizontalement */
+}
+
+.overlay {
+    position: absolute;
+    top: 440px;
+    left: 1340px;
+}
+
+.overlay img {
+    width: 100px;
+    height: auto;
 }
 
 .btn-grad {

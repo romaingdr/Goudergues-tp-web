@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function () {
     validerBtn.addEventListener("click", function () {
         var inputCode = document.querySelector(".styled-input").value;
 
-        if (inputCode === "12343831") {
+        if (inputCode === "56323831") {
             window.location.href = "fin.html";
         } else {
             document.getElementById("message").innerHTML = "Code incorrect. Réessayez.";
@@ -25,4 +25,13 @@ document.addEventListener("DOMContentLoaded", function () {
 
 function afficherPopup() {
     alert("- - - - 3 8 3 1");
+}
+
+function getName(){
+    var params = new URLSearchParams(window.location.search);
+    var nom = params.get("nom");
+    var welcomeName = document.getElementById("welcomeName");
+    if (nom) {
+        welcomeName.textContent = " " + nom + "  🗡";
+    }
 }

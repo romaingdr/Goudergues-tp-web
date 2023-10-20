@@ -2,28 +2,22 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
     <title>Castle quest</title>
-    <script src="script.js"></script>
+    <script src="scripts/script.js"></script>
 </head>
 <body style="background-image: url('images/welcomeBackground.jpg');">
-<div class="gameText">
+<div class="endText">
     <h1>Très bien,
         <span id="welcomeName"></span>
     </h1>
     <p>Bonne chance et bon courage !</p>
 </div>
 <div class="button-container">
-    <a href="début.html" class="btn-grad" id="gauche">Commencer l'aventure</a>
+    <a href="pages/début.html" class="btn-grad" id="gauche">Commencer l'aventure</a>
 </div>
-
 <script>
-    var params = new URLSearchParams(window.location.search);
-    var nom = params.get("nom");
-    var welcomeName = document.getElementById("welcomeName");
-    if (nom) {
-        welcomeName.textContent = " " + nom + "  🗡";
-    }
+    getName()
 </script>
 </body>
 </html>

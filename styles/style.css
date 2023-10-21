@@ -1,3 +1,21 @@
+* {
+    cursor: url(https://cur.cursors-4u.net/sports/spo-1/spo15.cur), auto !important;
+}
+
+body {
+    background-image: url('../images/welcomeBackground.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+h2 {
+    color: white;
+    font-family: Bradley Hand, cursive;
+    font-size: 50px;
+}
+
+
 .centered-text {
     position: absolute;
     top: 30%;
@@ -110,17 +128,6 @@
     text-decoration: none;
 }
 
-body {
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-}
-
-h2 {
-    color: white;
-    font-family: Bradley Hand, cursive;
-    font-size: 50px;
-}
 
 .image-centre {
     position: absolute;
@@ -189,6 +196,20 @@ h2 {
     text-decoration: none;
 }
 
+.btn-grad2 {
+    background-image: linear-gradient(to right, #0a927b 0%, #0a9287 51%, #0a927b 100%);
+    margin-top: 20px;
+    margin-left: 93%;
+    text-transform: capitalize;
+    font-family: Bradley Hand, cursive;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+    font-size: 24px;
+}
+
 .labyrinthe {
     left:30%;
     position: absolute;
@@ -245,4 +266,57 @@ h2 {
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
+}
+
+.hangman-container {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 400px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    min-width: 30vh;
+    min-height: 20vh;
+    background-color: rgba(240, 240, 240, 0.0);
+}
+
+.hangman-word {
+    font-size: 24px;
+    margin: 20px 50px;
+}
+
+.hangman-display {
+    font-family: Bradley Hand, cursive;
+    color: white;
+    font-size: 35px;
+    margin: 30px 80px;
+}
+
+.hangman-input input {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    margin-left: 100px;
+    border: 2px solid #7B920A;
+    border-radius: 10px;
+}
+
+.hangman-input button {
+    font-size: 18px;
+    background-color: #ADD100;
+    color: #fff;
+    border: none;
+    padding: 10px 30px;
+    margin: 50px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.hangman-chances {
+    font-family: Bradley Hand, cursive;
+    color: white;
+    font-size: 35px;
+    margin: 10px 0;
 }

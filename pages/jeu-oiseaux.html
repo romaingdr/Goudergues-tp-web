@@ -4,13 +4,27 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="../styles/style.css">
     <title>Castle quest</title>
+    <script src="../scripts/musique.js"></script>
+    <script src="../scripts/hangman.js"></script>
 </head>
-<body style="background-image: url('../images/welcomeBackground.jpg');">
-<div class="gameText">
-    <h1>Explication du jeu</h1>
-</div>
+<body>
+    <button class="btn-grad2" id="msq">Musique ▶️</button>
+    <div class="gameText">
+        <h1>🧙 Trouvez le mot pour obtenir un indice</h1>
+    </div>
 
-<div class="button-choices">
-    <a href="oiseaux.html" class="btn-grad" id="gauche">Retourner sur vos pas</a>
-</div>
+    <div class="hangman-container">
+        <div class="hangman-display" id="word-display">_ _ _ _ _ _ _</div>
+            <div class="hangman-input">
+                <input type="text" id="letter-input" maxlength="1">
+                <button onclick="guessLetter()">Tester</button>
+            </div>
+        <div class="hangman-chances" id="chances-left">Chances restantes : 7</div>
+    </div>
+
+    <div class="button-choices">
+        <a href="oiseaux.html" class="btn-grad" id="gauche">🔙 Retourner sur vos pas</a>
+        <a href="jeu-oiseaux.html" class="btn-grad" id="droite" style="background-image: linear-gradient(to right, #0a927b 0%, #0a9287 51%, #0a927b 100%);">Recommencer 🔄</a>
+    </div>
 </body>
+</html>

@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
     validerBtn.addEventListener("click", function () {
         var nom = document.querySelector(".styled-input").value;
 
-        window.location.href = "accueil.html?nom=" + encodeURIComponent(nom);
+        window.location.href = "pages/accueil.html?nom=" + encodeURIComponent(nom);
     });
 });
 

@@ -5,16 +5,16 @@ var goal = document.querySelector(".goal");
 var stepSize = 20;
 
 function generateObstacles() {
-    for (var i = 0; i < 200; i++) {
+    for (var i = 0; i < 300; i++) {
         var obstacle = document.createElement("div");
         obstacle.className = "obstacle";
 
         do {
-            var topPosition = Math.floor(Math.random() * 21);
-            var leftPosition = Math.floor(Math.random() * 38);
+            var topPosition = Math.floor(Math.random() * 27);
+            var leftPosition = Math.floor(Math.random() * 50);
         } while (
             (topPosition === 0 && leftPosition === 0) ||
-            (topPosition === 20 && leftPosition === 37)
+            (topPosition === 26 && leftPosition === 49)
         );
 
         obstacle.style.top = topPosition * stepSize + "px";
